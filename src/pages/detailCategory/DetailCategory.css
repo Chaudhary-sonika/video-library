@@ -1,0 +1,25 @@
+.title_Detail{
+    text-align: left;
+}
+.tumbnail_detail_tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tile_detail_div{
+    text-align: left;
+    width: 13rem;
+}
+.tile_detail_div img{
+    width: 13rem;
+}
+.cat_second_detail{
+    margin-top: -1.1rem;
+    
+}
+.cat_first_detail{
+    margin-top: -0.3rem;
+}
+.detail_text_cat p{
+   font-size: x-small;
+   margin-top: -1.1rem;
+}

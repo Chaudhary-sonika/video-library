@@ -1,0 +1,21 @@
+
+.video_main_div{
+    width: 60%;
+    /* margin: auto; */
+}
+.video_tag{
+    width: 35rem;
+    height: 50vh;
+}
+.single_video_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_div span{
+    margin-left: 0.6rem;
+}
+.single_video_div{
+    border-bottom: 1px solid black;
+}
