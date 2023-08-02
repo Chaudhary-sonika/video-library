@@ -1,10 +1,12 @@
 import {  useNavigate } from "react-router-dom";
 import { useVideo } from "../../contexts/VideoContext"
 import "../home/Home.css";
+import { useEffect } from "react";
 
 export const Home =()=>{
     const {state, dispatch} = useVideo();
     const navigate = useNavigate();
+    
     return(
         
             <div>

@@ -1,0 +1,11 @@
+.play_div{
+    text-align: left;
+    
+}
+.popup_div{
+    box-shadow: 0 0 1px;
+    padding: 2px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}

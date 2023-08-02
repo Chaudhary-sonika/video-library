@@ -7,13 +7,11 @@ import { BrowserRouter } from "react-router-dom";
 import { VideoProvider } from "./contexts/VideoContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <VideoProvider>
-        <App />
-      </VideoProvider>
-    </BrowserRouter>
-  </React.StrictMode>
+  <BrowserRouter>
+    <VideoProvider>
+      <App />
+    </VideoProvider>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
