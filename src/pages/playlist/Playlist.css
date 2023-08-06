@@ -1,6 +1,8 @@
 .play_div{
     text-align: left;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
 }
 .popup_div{
     box-shadow: 0 0 1px;
@@ -8,4 +10,8 @@
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
+}
+.play_image{
+    width: 13rem;
+    height: 10rem;
 }

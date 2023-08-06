@@ -12,3 +12,7 @@
 .tile_div{
     width: 13rem;
 }
+.tile_div h5{
+    text-align: left;
+    margin-top: -0.3rem;
+}
